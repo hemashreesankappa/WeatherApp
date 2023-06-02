@@ -4,7 +4,7 @@ const mainContainerEl = document.querySelector(".main-container");
 const subContainerEl = document.querySelector(".sub-container");
 const containerEl = document.querySelector(".container");
 import { APP_KEY } from "./configuration/config.js";
-const AppId = "c5bcdc83a279ff9b3c4f399917cb6546";
+const AppId = APP_KEY;
 const parentFormEl = document.querySelector(".search");
 let isCity;
 
