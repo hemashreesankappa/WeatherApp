@@ -3,7 +3,8 @@
 const mainContainerEl = document.querySelector(".main-container");
 const subContainerEl = document.querySelector(".sub-container");
 const containerEl = document.querySelector(".container");
-const AppId = "0e64f7f9209e4104a912d75e6a885c54";
+import { APP_KEY } from "./configuration/config.js";
+const AppId = "c5bcdc83a279ff9b3c4f399917cb6546";
 const parentFormEl = document.querySelector(".search");
 let isCity;
 
