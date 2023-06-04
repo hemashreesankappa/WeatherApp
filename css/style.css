@@ -12,6 +12,7 @@ body {
 .search {
   display: flex;
   justify-content: center;
+  align-content: center;
   margin: 1.8rem 0;
   height: 2.4rem;
 }
@@ -42,7 +43,7 @@ body {
 .container {
   display: flex;
   margin: 9.6rem auto;
-  width: 110rem;
+  max-width: 110rem;
   justify-content: space-evenly;
   gap: 4.8rem;
 }
